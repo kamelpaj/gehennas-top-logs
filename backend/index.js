@@ -1,5 +1,6 @@
 require('dotenv').config();
 import express from 'express';
+import {moltenCore, onyxia, blackwingLair} from './zones';
 
 const WARCRAFTLOGS_API_KEY = process.env.WARCRAFTLOGS_API_KEY;
 const app = express();
